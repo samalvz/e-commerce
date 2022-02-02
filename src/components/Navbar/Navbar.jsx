@@ -19,7 +19,7 @@ const Navbar = ({cartItemCount}) => {
             <AppBar position={'fixed'} className={classes.AppBar} color={"inherit"}>
                 <Toolbar>
                     {/*Icon and title (Left)*/}
-                    <Typography component={Link} to={"/e-commerce"} variant={'h6'} className={classes.title} color={'inherit'}>
+                    <Typography component={Link} to={'/e-commerce'} variant={'h6'} className={classes.title} color={'inherit'}>
                         <img src={desktop} alt={'Simple E-Commerce'} height={'25px'} className={classes.image}/>
                         Sam's PC Part Store
                     </Typography>
