@@ -39,7 +39,7 @@ const Checkout = ({cart, order, onCaptureCheckout, error}) => {
                 setCheckoutToken(token)
             } catch (error) {
                 // useHistory hook (now useNaviage)
-                //navigate('/')
+                //navigate('/e-commerce')
             }
         }
         generateToken()
@@ -78,14 +78,14 @@ const Checkout = ({cart, order, onCaptureCheckout, error}) => {
         </>*/
         console.log('real customer')
     ) : timeoutFinished ? (
-        // this defaults
+        // this defaults/e-commerce
         <>
             <div>
                 <Typography variant={'h5'}>Successful Purchase, Thank you!</Typography>
                 <Divider className={classes.divider}/>
             </div>
             <br/>
-            <Button component={Link} to={'/'} variant={'outlined'} type={'button'}>Back to Product Page</Button>
+            <Button component={Link} to={'/e-commerce'} variant={'outlined'} type={'button'}>Back to Product Page</Button>
         </>
     ) : (
         // spinner when loading confirmation (if the order takes a while)

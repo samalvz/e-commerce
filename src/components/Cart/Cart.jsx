@@ -13,7 +13,7 @@ const Cart = ({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) => {
     /* Empty cart element*/
     const EmptyCart = () => (
         <Typography variant={"subtitle1"}>Your cart is empty,
-            <Link to={"/"} className={classes.link}> add something now</Link>.
+            <Link to={"/e-commerce"} className={classes.link}> add something now</Link>.
         </Typography>
     )
 
