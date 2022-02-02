@@ -120,7 +120,7 @@ const AddressForm = ({checkoutToken, next}) => {
 
                     <br/>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                        <Button component={Link} to={'/cart'} variant={'outlined'}>Back to Cart</Button>
+                        <Button component={Link} to={'/cart/'} variant={'outlined'}>Back to Cart</Button>
                         <Button type={'submit'} variant={'contained'} color={'primary'}>Next</Button>
                     </div>
 

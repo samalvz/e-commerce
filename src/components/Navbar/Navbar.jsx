@@ -19,7 +19,7 @@ const Navbar = ({cartItemCount}) => {
             <AppBar position={'fixed'} className={classes.AppBar} color={"inherit"}>
                 <Toolbar>
                     {/*Icon and title (Left)*/}
-                    <Typography component={Link} to={'/e-commerce'} variant={'h6'} className={classes.title} color={'inherit'}>
+                    <Typography component={Link} to={'/e-commerce/'} variant={'h6'} className={classes.title} color={'inherit'}>
                         <img src={desktop} alt={'Simple E-Commerce'} height={'25px'} className={classes.image}/>
                         Sam's PC Part Store
                     </Typography>
@@ -27,7 +27,7 @@ const Navbar = ({cartItemCount}) => {
                     <div className={classes.grow}/>
 
                     {/*show cart button and badge on toolbar if on the home page*/}
-                    {(location.pathname === '/e-commerce') && (
+                    {(location.pathname === '/e-commerce/') && (
                     <div className={classes.button}>
                         {/*<Link to={"/cart"}>go to cart</Link>*/}
                         <IconButton component={Link} to={"/cart"} aria-label={'Show cart items'} color={'inherit'}>

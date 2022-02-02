@@ -90,11 +90,11 @@ const App = () => {
                 <Routes>
 
                     {/*Default page with products, this is the home route*/}
-                    <Route path={"/e-commerce"} element={<Products products={products} onAddToCart={handleAddToCart}/>}/>
+                    <Route path={'/e-commerce/'} element={<Products products={products} onAddToCart={handleAddToCart}/>}/>
 
 
                     {/*Route for the cart component, on its own page*/}
-                    <Route path={"/cart"} element={
+                    <Route path={'/cart/'} element={
                         <Cart
                             cart={cart}
                             onUpdateCartQty={handleUpdateCartQty}
@@ -103,7 +103,7 @@ const App = () => {
                         />}/>
 
                     {/*Route for checkout form*/}
-                    <Route path={"/checkout"} element={
+                    <Route path={'/checkout/'} element={
                         <Checkout
                             cart={cart}
                             order={order}
