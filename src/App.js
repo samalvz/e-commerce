@@ -3,6 +3,7 @@ import {commerce} from './lib/commerce'
 import {Products, Navbar, Cart, Checkout} from './components'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
+
 const App = () => {
     /* commerce.js provides simple response calls to return backend information
     there is no need to write these functions as the API provides it */
