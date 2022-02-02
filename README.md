@@ -1,4 +1,4 @@
 # e-commerce
-simple ecommerce
+simple ecommerce app using reactJS and commerceJS
 
 access app:  https://samalvz.github.io/e-commerce/
