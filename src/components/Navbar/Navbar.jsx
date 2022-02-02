@@ -30,7 +30,7 @@ const Navbar = ({cartItemCount}) => {
                     {(location.pathname === '/e-commerce/') && (
                     <div className={classes.button}>
                         {/*<Link to={"/cart"}>go to cart</Link>*/}
-                        <IconButton component={Link} to={"/cart"} aria-label={'Show cart items'} color={'inherit'}>
+                        <IconButton component={Link} to={'/cart/'} aria-label={'Show cart items'} color={'inherit'}>
                             <Badge badgeContent={cartItemCount} color={'secondary'}>
                                 <ShoppingCart/>
                             </Badge>
